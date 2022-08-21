@@ -7,6 +7,7 @@
 picom --config ~/.config/picom/picom.conf --experimental-backends -b &
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
+#xmodmap ~/.Xmodmap &
 dunst &
 nm-applet &
 xfce4-power-manager &
